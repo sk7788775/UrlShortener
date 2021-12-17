@@ -12,12 +12,9 @@ _Contributions and bug reports are welcome._
 - [Key Features](#key-features)
 - [Stack](#stack)
 - [Setup](#setup)
-- [Browser Extensions](#browser-extensions)
-- [API](#api)
-- [Integrations](#integrations)
 - [3rd Party Packages](#3rd-party-packages)
-- [Donate](#donate)
 - [Contributing](#contributing)
+- [Contributers](#contributers)
 
 ## Key Features
 
@@ -67,7 +64,7 @@ Pull requests are welcome. You'll probably find lots of improvements to be made.
 
 Open issues for feedback, requesting features, reporting bugs or discussing ideas.
 
-## Contributing
+## Contributers
 
 [Shivam Kumar] and [Navneet]
 
