@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+
+<div class="container">
+    <h1 style="text-align: center;">Url Data</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Full Url</th>
+                <th>Short Url</th>
+                <th>Clicks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% shortUrls.forEach(shortUrl => { %>
+                <tr>
+                    <td><a href="<%= shortUrl.full %>"><%= shortUrl.full %></a></td>
+                    <td><a href="<%= shortUrl.short %>"><%= shortUrl.short %></a></td>
+                    <td><%= shortUrl.clicks %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</div>
+
+<%- include('partials/footer') %>
+

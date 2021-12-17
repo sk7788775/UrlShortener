@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <form action="/shortUrls" method="POST">
+        <h1>ShortMyUrl</h1>
+        <i class="fas fa-key fa-6x"></i>
+        <hr>
+        <label for="fullUrl" class="sr-only">Full Url</label>
+        <input required placeholder="url" type="url" name="fullUrl" id="fullUrl" class="form-control col my-2">
+        <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+        <button type="submit" class="btn btn-light btn-lg">Shrink</button>
+    </form>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
