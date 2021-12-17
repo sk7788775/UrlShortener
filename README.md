@@ -51,7 +51,7 @@ You need to have [Node.js](https://nodejs.org/), [mongodb](https://www.mongodb.c
 | Language   | Link                                                                              | Description                                        |
 | ---------- | --------------------------------------------------------------------------------- | -------------------------------------------------- |
 
-| Node.js    | [node-kutt](https://github.com/ardalanamini/node-kutt)                            | Node.js client for urlShortener           |
+| Node.js    | [https://nodejs.org/en/](https://nodejs.org/en/)                            | Node.js for server          |
 
 
 ## Contributing
