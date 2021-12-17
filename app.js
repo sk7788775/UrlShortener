@@ -2,6 +2,9 @@
 const express=require("express");
 const bodyParser=require("body-parser");
 const ejs=require("ejs");
+const mongoose=require("mongoose");
+// const ShortUrl=require("./models/shortUrl");
+const shortId=require("shortid");
 
 const app=express();
 
@@ -10,6 +13,36 @@ app.set("view engine","ejs");
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
+mongoose.connect("mongodb+srv://<USER_NAME>:<PASSWORD>@cluster0.s6tiu.mongodb.net/userDB?retryWrites=true&w=majority",{
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
+
+const userSchema={
+    email: String,
+    password: String
+};
+
+const shortUrlSchema=new mongoose.Schema({
+    full: {
+        type: String,
+        required: true
+    },
+    short: {
+        type: String,
+        required: true,
+        default: shortId.generate
+    },
+    clicks: {
+        type: Number,
+        required: true,
+        default: 0
+    }
+});
+
+const User=new mongoose.model("User",userSchema);
+const ShortUrl=new mongoose.model("ShortUrl",shortUrlSchema);
 
 app.get("/",function(req,res){
     res.render("home");
@@ -62,6 +95,44 @@ app.post("/login",function(req,res) {
             }
         }
     });
+});
+
+app.post("/shortUrls", async (req,res)=> {
+    await ShortUrl.create({
+        full: req.body.fullUrl
+    });
+    res.redirect("urlData");
+});
+
+// User.find(function(err,user) {
+//     if(err) {
+//         console.log("Error");
+//     } else {
+//         console.log(user);
+//     }
+// });
+
+// ShortUrl.find(function(err,url) {
+//     if(err) {
+//         console.log("Error");
+//     } else {
+//         console.log(url);
+//     }
+// });
+
+app.get("/urlData",async (req,res)=>{
+    const shortUrls=await ShortUrl.find();
+    res.render("urlData",{shortUrls:shortUrls});
+});
+
+app.get("/:shortUrl",async(req,res) => {
+    const shortUrl=await ShortUrl.findOne({short: req.params.shortUrl});
+    if(shortUrl == null) return res.sendStatus(404);
+
+    shortUrl.clicks++;
+    shortUrl.save();
+
+    res.redirect(shortUrl.full);
 });
 
 let port = process.env.PORT;
