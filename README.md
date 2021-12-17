@@ -27,14 +27,9 @@ _Contributions and bug reports are welcome._
 
 - Node (Web server)
 - Express (Web server framework)
-- Passport (Authentication)
-- React (UI library)
-- Next (Universal/server-side rendered React)
-- Easy Peasy (State management)
-- styled-components (CSS styling solution library)
-- Recharts (Chart library)
-- PostgreSQL (database)
-- Redis (Cache layer)
+- EJS (templating)
+- mongodb (database)
+
 
 ## Setup
 
@@ -43,9 +38,8 @@ _Contributions and bug reports are welcome._
 You need to have [Node.js](https://nodejs.org/), [mongodb](https://www.mongodb.com/) installed.
 
 1. Clone this repository (https://github.com/sk7788775/UrlShortener.git).
-2. Copy `.example.env` to `.env` and fill it properly ([see below](#configuration)).
-3. Install dependencies: `npm init`.
-4. Run for development: `node app.js`.
+2. Install dependencies: `npm init`.
+3. Run for development: `node app.js`.
 
 
 
