@@ -67,9 +67,6 @@ Open issues for feedback, requesting features, reporting bugs or discussing idea
 
 ## Demo
 
-<video width="400" controls>
-  <source src="https://youtu.be/fEegpEJUEWU" type="video/mp4">
-  Your browser does not support HTML video.
-</video>
+[![Watch the Demo](https://scontent.fccu10-1.fna.fbcdn.net/v/t39.30808-6/266742879_1386159495174323_475169212154149857_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=udKkYivbLNkAX_1tE9P&_nc_ht=scontent.fccu10-1.fna&oh=00_AT9po6OsbRx7ErL9PTH-x8wtyf9nIhkkdfKitiy-Yoefwg&oe=61C20677)](https://youtu.be/fEegpEJUEWU)
 
 
