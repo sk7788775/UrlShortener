@@ -67,6 +67,6 @@ Open issues for feedback, requesting features, reporting bugs or discussing idea
 
 ## Demo
 
-[![Watch the Demo](https://scontent.fccu10-1.fna.fbcdn.net/v/t39.30808-6/266742879_1386159495174323_475169212154149857_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=udKkYivbLNkAX_1tE9P&_nc_ht=scontent.fccu10-1.fna&oh=00_AT9po6OsbRx7ErL9PTH-x8wtyf9nIhkkdfKitiy-Yoefwg&oe=61C20677)](https://youtu.be/fEegpEJUEWU)
+[![Watch the Demo](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.intralabs.in%2Fdemo-products.php&psig=AOvVaw31WMMwAkb0lVqlceSMmyHH&ust=1639940965712000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJiQz6yG7vQCFQAAAAAdAAAAABAK)](https://youtu.be/fEegpEJUEWU)
 
 
