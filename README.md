@@ -67,6 +67,6 @@ Open issues for feedback, requesting features, reporting bugs or discussing idea
 
 ## Demo
 
-[![Watch the Demo](https://www.protek.it/wp-content/uploads/DEMO-ONLINE-1.png)](https://youtu.be/fEegpEJUEWU)
+[![Watch the Demo](https://www.learnfxtrade.com/wp81316/wp-content/uploads/2019/06/Demo-Trading-450x330.png)](https://youtu.be/fEegpEJUEWU)
 
 
