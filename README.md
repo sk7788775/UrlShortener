@@ -67,6 +67,6 @@ Open issues for feedback, requesting features, reporting bugs or discussing idea
 
 ## Demo
 
-[![Watch the Demo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rabio.eu%2Frabio%2F2019%2F12%2F20%2Fdemo-launch%2F&psig=AOvVaw3EIL-LNmztzmei4oHR1LhW&ust=1640088908855000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLj247mt8vQCFQAAAAAdAAAAABAD)](https://youtu.be/fEegpEJUEWU)
+[![Watch the Demo](https://www.protek.it/wp-content/uploads/DEMO-ONLINE-1.png)](https://youtu.be/fEegpEJUEWU)
 
 
