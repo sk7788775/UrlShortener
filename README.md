@@ -63,8 +63,8 @@ Open issues for feedback, requesting features, reporting bugs or discussing idea
 
 ## Contributers
 
-- [Shivam Kumar] - Web-Server and Database connectivity 
-- [Abhishek Kumar] - Front-end 
+- [Amit Prakash] - Web-Server and Database connectivity 
+- [Shivam Kumar] - Front-end 
 
 ## Demo
 
